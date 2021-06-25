@@ -1,11 +1,11 @@
-from flask import Flask, redirect, url_for
+from flask import Flask, redirect, url_for, render_template
 
 app = Flask(__name__)
 
 @app.route('/')
 @app.route('/home')
 def home():
-    return 'Welcome to the home page, Happy Browsing! :)'
+    return render_template('home.html')
 
 @app.route('/about')
 def about():
