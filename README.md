@@ -1,5 +1,5 @@
 # Individual-project
-#Brief
+# Brief
 - The brief provided for this project is set as To create a CRUD application with utilisation of supporting tools,methodologies and technologies that encapsulate all core modules
 covered during training.
 
@@ -34,7 +34,8 @@ Risk assessment:
 - routes for CRUD directly to web application were non functional
 - testing suites did not get made
 - CI server was not made
-
+- forms data is non functional: i have attempted to create a basic registration form at the route '/register' however jinja2 is replying back with an issue for form not being defined and also home.html not being rendered
+- could not import my customers class from applications.models whic has now subsequently affeccted the app.py file it seems.
 # Future Improvements:
 
 - Improve time management for each requirement
